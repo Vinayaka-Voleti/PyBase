@@ -1,0 +1,20 @@
+/* src/App.css */
+body {
+  background: url('moon.avif');
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+@media (max-width: 991px) {
+  .offcanvas {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+}
+
+#color {
+  color: black;
+}
